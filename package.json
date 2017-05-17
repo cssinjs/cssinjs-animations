@@ -1,7 +1,7 @@
 {
-  "name": "react-animations",
+  "name": "cssinjs-animations",
   "version": "0.1.0",
-  "description": "A collection of animations for inline styles",
+  "description": "A collection of animations for cssinjs.",
   "main": "lib/index.js",
   "scripts": {
     "test:only": "jest",
@@ -20,7 +20,8 @@
     "react",
     "animation",
     "radium",
-    "css-in-js"
+    "css-in-js",
+    "cssinjs"
   ],
   "author": "Brandon Dail <brandon.dail@formidable.com>",
   "license": "MIT",

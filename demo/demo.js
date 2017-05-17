@@ -27,7 +27,7 @@ const Demo = ({ styles, duration, animation }) => {
   return (
     <div>
     {dummies}
-    <h1 key={animation} style={headerStyle}>react-animations</h1>
+    <h1 key={animation} style={headerStyle}>cssinjs-animations</h1>
     <p style={descriptionStyle}>A collection of animations for CSS-in-JS libraries </p>
     <a href='https://github.com/FormidableLabs/react-animations'>View on Github</a>
     </div>

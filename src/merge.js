@@ -169,7 +169,7 @@ const populateDefinedFrame = function populateDefinedFrame(
  * @param {Object} secondary Animation
  * @returns {Object} merged Animation
  * @example
- * import { merge, tada, flip } from 'react-animations';
+ * import { merge, tada, flip } from 'cssinjs-animations';
  * const tadaFlip = merge(tada, flip);
  */
 export default function merge(

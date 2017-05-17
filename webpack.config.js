@@ -8,8 +8,8 @@ const plugins = [
 ];
 
 const filename = env === 'production'
-  ? 'react-animations.min.js'
-  : 'react-animations.js';
+  ? 'cssinjs-animations.min.js'
+  : 'cssinjs-animations.js';
 
 if (env === 'production') {
   plugins.push(

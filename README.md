@@ -1,7 +1,7 @@
-# react-animations
+# cssinjs-animations
 
 
-A collection of animations that can be used with any inline style library that supports using objects to define keyframe animations, such as Radium or Aphrodite. React-animations implements all animations from [animate.css](https://daneden.github.io/animate.css/).
+A collection of animations that can be used with any inline style library that supports using objects to define keyframe animations, such as Radium or Aphrodite. CssinJS-Animations implements all animations from [animate.css](https://daneden.github.io/animate.css/).
 
 [Check out the interactive demo](http://react-animations.herokuapp.com/).
 
@@ -10,20 +10,20 @@ A collection of animations that can be used with any inline style library that s
 You can import each animation directly from the main package
 
 ```js
-import { fadeIn } from 'react-animations'
+import { fadeIn } from 'cssinjs-animations'
 ```
 
 or you can import a specific animation directly
 
 ```js
-import fadeIn from 'react-animations/lib/fade-in'
+import fadeIn from 'cssinjs-animations/lib/fade-in'
 ```
 
 
 ### Usage with Radium
 
 ```js
-import { bounce } from 'react-animations';
+import { bounce } from 'cssinjs-animations';
 import Radium from 'radium';
 
 const styles = {
@@ -37,7 +37,7 @@ const styles = {
 ### Usage with Aphrodite
 
 ```js
-import { bounce } from 'react-animations';
+import { bounce } from 'cssinjs-animations';
 import { StyleSheet, css } from 'aphrodite';
 
 const styles = StyleSheet.create({
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
 ### Usage with JSS
 
 ```js
-import { bounce } from 'react-animations';
+import { bounce } from 'cssinjs-animations';
 import jss from 'jss'
 import preset from 'jss-preset-default'
 
@@ -225,11 +225,11 @@ Below is a list of all available animations
 
 ## Merge
 
-react-animations also exports a `merge` function that takes two animations and returns a new animation that combines the transforms from both. This is experimental and wont work (well) with animations that have conflicting transforms, such as `fadeIn` and `fadeOut`. The merged animation can be used just like any of the imported animations.
+cssinjs-animations also exports a `merge` function that takes two animations and returns a new animation that combines the transforms from both. This is experimental and wont work (well) with animations that have conflicting transforms, such as `fadeIn` and `fadeOut`. The merged animation can be used just like any of the imported animations.
 
 
 ```js
 
-import { merge, tada, flip } from 'react-animations';
+import { merge, tada, flip } from 'cssinjs-animations';
 const tadaFlip = merge(tada, flip);
 ```
