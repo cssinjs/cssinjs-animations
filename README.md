@@ -60,7 +60,7 @@ jss.setup(preset())
 const {classes} = jss.createStyleSheet({
   '@keyframes bounce': bounce,
   bounce: {
-    animationName: 'bounce',
+    animationName: '$bounce',
     animationDuration: '1s',
   },
 }).attach()
@@ -233,3 +233,4 @@ cssinjs-animations also exports a `merge` function that takes two animations and
 import { merge, tada, flip } from 'cssinjs-animations';
 const tadaFlip = merge(tada, flip);
 ```
+s
